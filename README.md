@@ -13,20 +13,22 @@
 - 不允许(MUST NOT) 使用复数形式。如：imgs、docs是不被允许的。
 
 ## asset  资源目录结构
+
 ### js
 	js目录可用于存放js资源文件（包含可编译成js的coffeescript等语言）。
+	
 	js目录内 必须(MUST) 存放js资源文件，但js资源文件不一定（MAY NOT）存放于js目录下：
-	- 对于src目录，js资源文件 不允许(MUST NOT) 存放于js目录下。
-	- 对于asset目录，js资源文件 可以(SHOULD) 存放于js目录下，视构建行为决定。
-	- 对于其他一级目录内，js资源文件 可以(SHOULD) 不存放于js目录下。
+	1. 对于src目录，js资源文件 不允许(MUST NOT) 存放于js目录下。
+	2. 对于asset目录，js资源文件 可以(SHOULD) 存放于js目录下，视构建行为决定。
+	3. 对于其他一级目录内，js资源文件 可以(SHOULD) 不存放于js目录下。
 		
 ### css
 	css目录可用于存放css资源文件（包含less，sass等动态样式表语言）。
 
 	css目录内 必须(MUST) 存放css资源文件，但css资源文件不一定（MAY NOT）存放于css目录下：
-	- 对于src目录，css资源文件 可以(SHOULD) 存放于业务目录下，也 可以(SHOULD) 存放于css目录下。
-	- 对于asset目录，css资源文件 可以(SHOULD) 存放于css目录下，视构建行为决定。
-	- 对于其他一级目录内，css资源文件 可以(SHOULD) 不存放于css目录下。
+	1. 对于src目录，css资源文件 可以(SHOULD) 存放于业务目录下，也 可以(SHOULD) 存放于css目录下。
+	2. 对于asset目录，css资源文件 可以(SHOULD) 存放于css目录下，视构建行为决定。
+	3. 对于其他一级目录内，css资源文件 可以(SHOULD) 不存放于css目录下。
 		
 ### img
 	img目录可用于存放图片资源文件。包括页面直接引用的图片与css引用图片。常见的图片资源有gif/jpg/png/svg/bmp等。
@@ -34,8 +36,8 @@
 	对于css引用的图片， 必须(MUST) 放在./img目录下，.代表当前css资源所在的目录。
 		
 	对于页面直接引用的图片：
-	- 被多页面引用的图片 应该(SHOULD) 放在${root}/src/common/img目录下。
-	- 单一页面引用的图片 应该(SHOULD) 放在./img目录下，.代表当前页面所在的目录。
+	1. 被多页面引用的图片 应该(SHOULD) 放在${root}/src/common/img目录下。
+	2. 单一页面引用的图片 应该(SHOULD) 放在./img目录下，.代表当前页面所在的目录。
 		
 ### tpl
 	tpl目录可用于存放template资源文件。template资源文件后缀名 可以(SHOULD) 为.html或.tpl。
