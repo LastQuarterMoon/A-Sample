@@ -3,25 +3,25 @@
 
 ## 目录命名原则
 
-1. 简洁。有习惯性缩写的单词 必须(MUST) 采用容易理解的缩写。如：源代码目录使用src，不使用source。下面是更多例子：
+- 简洁。有习惯性缩写的单词 必须(MUST) 采用容易理解的缩写。如：源代码目录使用src，不使用source。下面是更多例子：
 	- img: 图片。 不允许(MUST NOT) 使用image、images、imgs等。
 	- js: javascript脚本。 不允许(MUST NOT) 使用script、scripts等。
 	- css: 样式表。 不允许(MUST NOT) 使用style、styles等。
 	- swf: flash。 不允许(MUST NOT) 使用flash等。
 	- src: 源文件目录。 不允许(MUST NOT) 使用source等。
 	- dep: 引入的第三方依赖包目录。 不允许(MUST NOT) 使用lib、library、dependency等。
-2. 不允许(MUST NOT) 使用复数形式。如：imgs、docs是不被允许的。
+- 不允许(MUST NOT) 使用复数形式。如：imgs、docs是不被允许的。
 
 ## asset  资源目录结构
 ### js
-	js目录可用于存放js资源文件（包含可编译成js的coffeescript等语言）。js文件后缀名 必须(MUST) 为.js，coffeescript文件后缀名 必须(MUST) 为.coffee。
+	js目录可用于存放js资源文件（包含可编译成js的coffeescript等语言）。
 	js目录内 必须(MUST) 存放js资源文件，但js资源文件不一定（MAY NOT）存放于js目录下：
 	- 对于src目录，js资源文件 不允许(MUST NOT) 存放于js目录下。
 	- 对于asset目录，js资源文件 可以(SHOULD) 存放于js目录下，视构建行为决定。
 	- 对于其他一级目录内，js资源文件 可以(SHOULD) 不存放于js目录下。
 		
 ### css
-	css目录可用于存放css资源文件（包含less，sass等动态样式表语言）。css文件后缀名 必须(MUST) 为.css，less文件后缀名 必须(MUST) 为.less。
+	css目录可用于存放css资源文件（包含less，sass等动态样式表语言）。
 
 	css目录内 必须(MUST) 存放css资源文件，但css资源文件不一定（MAY NOT）存放于css目录下：
 	- 对于src目录，css资源文件 可以(SHOULD) 存放于业务目录下，也 可以(SHOULD) 存放于css目录下。
