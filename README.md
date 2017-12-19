@@ -54,7 +54,7 @@
 - html
 ```
 <!--
-	author: yangxin
+	author: author
 	date: 2016-04-15
 	description: this is description
 -->
@@ -63,7 +63,7 @@
 - js、css
 ```
 /*
- * author：yangxin
+ * author：author
  * date：2016-04-15
  * description：this is description
  */
