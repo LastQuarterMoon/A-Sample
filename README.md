@@ -51,7 +51,7 @@
 	swf目录可用于存放flash资源文件。flash资源文件 不允许(MUST NOT) 置于img目录中
 		
 ## 文件头注释
-- html
+### html
 ```
 <!--
 	author: author
@@ -60,7 +60,7 @@
 -->
 ```
 
-- js、css
+### js、css
 ```
 /*
  * author：author
