@@ -9,10 +9,11 @@
 	- css: 样式表。 不允许(MUST NOT) 使用style、styles等。
 	- swf: flash。 不允许(MUST NOT) 使用flash等。
 	- src: 源文件目录。 不允许(MUST NOT) 使用source等。
+	- asset: 资源目录。 不允许(MUST NOT) 使用assets等。
 	- dep: 引入的第三方依赖包目录。 不允许(MUST NOT) 使用lib、library、dependency等。
 - 不允许(MUST NOT) 使用复数形式。如：imgs、docs是不被允许的。
 
-## asset  资源目录结构
+## 目录结构说明
 
 ### js
 	js目录可用于存放js资源文件（包含可编译成js的coffeescript等语言）。
